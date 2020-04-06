@@ -96,3 +96,8 @@
 .share-icons i {
   margin: 0 10px;
 }
+
+.article-content p {
+  width: 600px;
+  margin: 20px auto;
+}
