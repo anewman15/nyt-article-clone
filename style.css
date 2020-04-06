@@ -22,7 +22,7 @@
   font-size: large;
 }
 
-.sc-link{
+.sc-link {
   justify-self: start;
   margin-left: 40px;
   text-decoration: none;
@@ -34,7 +34,7 @@
 .sc-link:hover {
   text-decoration: underline;
 }
-.logo-img{
+.logo-img {
   width: 250px;
   margin: auto;
 }
@@ -53,4 +53,32 @@
 
 .login-btn {
   margin-right: 30px;
+}
+
+.article-header {
+  margin: 40px auto;
+  width: 884px;
+}
+
+.article-header h2 {
+  font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
+  max-width: 600px;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.main-img {
+  /* margin: 0 auto; */
+  /* text-align: center; */
+}
+
+.main-img img {
+  width: 100%;
+}
+
+.main-img figcaption {
+  margin-top: 5px;
 }
