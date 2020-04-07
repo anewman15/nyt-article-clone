@@ -220,6 +220,17 @@
   font-size: 14px;
 }
 
+.illustration {
+  width: 945px;
+  margin: auto;
+}
+
+.illustration img {
+  width: 100%;
+  /* margin: auto; */
+  text-align: center;
+}
+
 .youtube-video {
   width: 600px;
   margin: auto;
@@ -248,4 +259,22 @@ figcaption span:nth-child(2) {
 
 .cosmos-img {
   width: 100%;
+}
+
+.article-footer {
+  width: 600px;
+  margin: auto;
+}
+
+.read-comments {
+  display: flex;
+  justify-content: space-between;
+}
+
+.read-comments button {
+  width: 330px;
+}
+
+.read-comments i {
+  margin: 0 10px;
 }
