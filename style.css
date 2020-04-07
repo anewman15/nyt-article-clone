@@ -7,7 +7,10 @@
   flex-flow: row nowrap;
   align-items: center;
   padding: 5px 0px;
-  border-bottom: 1px solid #E2E2E2; 
+  border-bottom: 1px solid #E2E2E2;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .menu-i {
@@ -30,13 +33,14 @@
   font-weight: bold;
   font-size: 0.9rem;
   color: black;
+  white-space: nowrap;
 }
 .sc-link:hover {
   text-decoration: underline;
 }
 .logo-img {
   width: 200px;
-  margin: auto;
+  margin: 0 340px;
 }
 
 .nav-btns {
@@ -45,12 +49,16 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 11px;
-  padding: 11px 12px 8px 12px;
+  padding: 11px 10px 8px 12px;
   border: 1px solid #2c4f68;
   border-radius: 3px;
-  margin-right: 13px;
+  margin-right: 7px;
+  white-space: nowrap;
 }
 
+.nav-btns:hover {
+  background-color: #305874;
+}
 .login-btn {
   margin-right: 30px;
 }
@@ -79,22 +87,56 @@
 
 .main-img figcaption {
   margin-top: 5px;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  color: #666666;
 }
 
 .author-section {
   width: 600px;
   margin: 0 auto;
 }
+.devis-h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333333;
+}
+.devis-link {
+  text-decoration-color: lightgray;
+  color: #333333;  
+}
 
+.devis-link:hover {
+  text-decoration: none;
+}
 .share-icons {
   display: flex;
   justify-content: space-between;
+  margin: 30px 0px;
 }
 
 .share-icons i {
   margin: 0 10px;
 }
-
+.share-icons :hover {
+  background-color: white;
+}
+.i1 {
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(231, 229, 229);
+  border-radius: 50%;
+  padding: 4px;
+  font-size: smaller;
+}
+.i2 {
+  font-size: x-large;
+  color: rgb(48, 47, 47);
+}
+.i2:hover {
+  color: rgb(230, 230, 230);
+}
+.i-link {
+  text-decoration: none;
+  color: inherit;
+}
 .article-content p {
   width: 600px;
   margin: 20px auto;
