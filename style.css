@@ -149,6 +149,10 @@
   justify-content: center;
 }
 
+.article-content-wrapper {
+  margin-left: calc((100% - 780px) / 2);
+}
+
 .create-account-call {
   /* margin: 0 auto; */
   text-align: center;
@@ -167,12 +171,31 @@
 .editors-picks-wrapper {
   width: 210px;
   margin-left: 75px;
+  align-self: center;
 }
 
 .editors-picks-wrapper img {
   width: 75px;
+  margin-right: 10px;
 }
 
 .editors-picks-wrapper a {
   width: 210px;
+}
+
+.editors-picks-articles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.editors-picks-articles a {
+  text-decoration: none;
+  color: #333;
+}
+
+.editors-picks-articles a:hover {
+  text-decoration: underline;
 }
