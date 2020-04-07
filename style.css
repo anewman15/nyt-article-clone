@@ -278,3 +278,23 @@ figcaption span:nth-child(2) {
 .read-comments i {
   margin: 0 10px;
 }
+
+.recommended-articles {
+  border: 1px solid black;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
+
+.recommended-articles-left {
+  width: 80%;
+}
+
+.rec-articles-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.article-tile img {
+  width: 100%;
+}
