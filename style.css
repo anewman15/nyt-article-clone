@@ -142,15 +142,18 @@
   margin: 20px auto;
 }
 
+.article-content span {
+
+}
+
 .second-section {
   display: flex;
   margin: 0 auto;
-  border: 1px solid black;
   justify-content: center;
 }
 
 .article-content-wrapper {
-  margin-left: calc((100% - 780px) / 2);
+  margin-left: 285px;
 }
 
 .create-account-call {
