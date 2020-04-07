@@ -141,3 +141,38 @@
   width: 600px;
   margin: 20px auto;
 }
+
+.second-section {
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.create-account-call {
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+.create-account-call hr {
+  width: 60px;
+  margin: 30px auto;
+}
+
+.create-account-call a {
+  text-decoration: none;
+  color: rgb(50, 104, 145);
+}
+
+.editors-picks-wrapper {
+  width: 210px;
+  margin-left: 75px;
+}
+
+.editors-picks-wrapper img {
+  width: 75px;
+}
+
+.editors-picks-wrapper a {
+  width: 210px;
+}
