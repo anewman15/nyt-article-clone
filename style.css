@@ -85,6 +85,8 @@
   width: 100%;
 }
 
+/* Article Top Author Section */
+
 .author-section {
   width: 600px;
   margin: 0 auto;
@@ -131,6 +133,9 @@
   text-decoration: none;
   color: inherit;
 }
+
+/* Article Content Area */
+
 .article-content p {
   width: 600px;
   margin: 20px auto;
@@ -161,7 +166,6 @@
 }
 
 .create-account-call {
-  /* margin: 0 auto; */
   text-align: center;
 }
 
@@ -227,7 +231,6 @@
 
 .illustration img {
   width: 100%;
-  /* margin: auto; */
   text-align: center;
 }
 
@@ -278,6 +281,8 @@ figcaption span:nth-child(2) {
 .read-comments i {
   margin: 0 10px;
 }
+
+/* Recommended Articles Area */
 
 .recommended-articles {
   border: 1px solid black;
@@ -334,6 +339,8 @@ figcaption span:nth-child(2) {
   font-size: 15px;
 }
 
+/* Bottom Navigation Area */
+
 .bottom-nav {
   width: 1280px;
   margin: auto;
@@ -352,12 +359,13 @@ figcaption span:nth-child(2) {
   width: 184px;
 }
 
+/* Bottom Footer Area */
+
 footer {
   text-align: center;
 }
 
 footer a {
   display: inline;
-  /* text-align: center; */
 
 }
