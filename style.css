@@ -306,8 +306,8 @@ figcaption span:nth-child(2) {
 
 .recommended-articles {
   border: 1px solid black;
-  max-width: 1280px;
-  margin: auto;
+  max-width: 1200px;
+  margin: 45px auto 0 auto;
   display: flex;
 }
 
@@ -329,14 +329,14 @@ figcaption span:nth-child(2) {
 }
 
 .recommended-articles-left {
-  width: 852px;
+  max-width: 852px;
 }
 
 .rec-articles-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  width: 900px;
+  width: 852px;
 }
 
 .article-tile {
@@ -383,21 +383,27 @@ figcaption span:nth-child(2) {
   width: 315px;
 }
 
+.mp-span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
 .mp-links {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;;
   font-size: 17px;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 1.4;
   color: #121212;
   text-decoration: none;
   display: inline-block;
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
-.mp-span{
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 15px;
+.mp-links:hover {
+  color: #666666;
 }
 
 /* Bottom Navigation Area */
