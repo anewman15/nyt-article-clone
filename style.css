@@ -305,14 +305,14 @@ figcaption span:nth-child(2) {
 /* Recommended Articles Area */
 
 .recommended-articles {
-  border: 1px solid black;
+ 
   max-width: 1200px;
   margin: 45px auto 0 auto;
   display: flex;
 }
 
 .hr-black {
-  /* border-top: 1px solid black; */
+  border-top: 1px solid black;
   margin-top: 0;
 }
 
@@ -394,7 +394,7 @@ figcaption span:nth-child(2) {
 .mp-links {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;;
   font-size: 17px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 1.4;
   color: #121212;
   text-decoration: none;
