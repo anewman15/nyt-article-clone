@@ -52,8 +52,8 @@
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 12px;
-  padding: 12px 10px 8px 12px;
+  font-size: 11px;
+  padding: 11px 12px 6px 12px;
   border: 1px solid #2c4f68;
   border-radius: 3px;
   margin-right: 0;
@@ -117,33 +117,34 @@
 }
 
 .rel-abs-icon{
-  border: 1px solid;
   display: inline-block;
   position: relative;
 }
 
 .share-icons i {
-  margin: 0 10px;
-  
+  margin: 0 6px;
 }
-.share-icons :hover {
+
+.i1:hover {
   background-color: white;
 }
 .i1 {
   background-color: rgb(236, 236, 236);
   border: 1px solid rgb(231, 229, 229);
   border-radius: 50%;
-  padding: 4px;
+  padding: 5px;
   font-size: smaller;
 }
 .i2 {
+  position: relative;
+  top: 10px;
   font-size: xx-large;
   color: rgb(48, 47, 47);
 }
 .i-abs{
   position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 18px;
+  left: 13px;
   font-size: 12px;
 }
 .i2:hover {
@@ -289,17 +290,42 @@ figcaption span:nth-child(2) {
   margin: auto;
 }
 
+.article-footer-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  text-align: left;
+  line-height: 1.3;
+  margin-bottom: 22px;
+}
+
+.article-footer-p a {
+  color: inherit;
+}
+
+.article-footer-p a:hover {
+  text-decoration: none;
+}
+
+.footer-icons a{
+  text-decoration: none;
+  color: inherit;
+  margin: 0 7px;
+}
+
 .read-comments {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .read-comments button {
   width: 330px;
 }
 
-.read-comments i {
-  margin: 0 10px;
+.btn-comment {
+  padding: 12px 30px 8px 30px;
+  font-size: 12px;
 }
 
 /* Recommended Articles Area */
@@ -410,7 +436,7 @@ figcaption span:nth-child(2) {
 
 .bottom-nav {
   width: 1280px;
-  margin: 30px auto;
+  margin: 30px auto px auto;
   padding: 15px 0px;
   border-top: 5px double #e2e2e2 ;
 }
@@ -473,7 +499,7 @@ figcaption span:nth-child(2) {
 
 .iconed-links{
   font-weight: 800;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* Bottom Footer Area */
@@ -485,4 +511,20 @@ footer {
 footer a {
   display: inline;
 
+}
+
+.bottom-footer {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  margin-bottom: 50px;
+}
+
+.bottom-footer a{
+  text-decoration: none;
+  color: #666666;
+  margin: 0 6px;
+}
+
+.bottom-footer a:hover {
+  text-decoration: underline;
 }
