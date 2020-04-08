@@ -281,7 +281,7 @@ figcaption span:nth-child(2) {
 
 .recommended-articles {
   border: 1px solid black;
-  max-width: 1200px;
+  max-width: 1280px;
   margin: auto;
   display: flex;
 }
@@ -332,4 +332,32 @@ figcaption span:nth-child(2) {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 15px;
+}
+
+.bottom-nav {
+  width: 1280px;
+  margin: auto;
+}
+
+.bottom-nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-nav-links span, a {
+  display: block;
+}
+
+.bottom-nav-header img {
+  width: 184px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  display: inline;
+  /* text-align: center; */
+
 }
