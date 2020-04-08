@@ -3,12 +3,14 @@
 */
 
 .nav-div {
+  width: 1326px;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
   align-items: center;
   padding: 5px 0px;
   border-bottom: 1px solid #e2e2e2;
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color: white;
 }
@@ -42,7 +44,7 @@
 
 .logo-img {
   width: 200px;
-  margin: 0 410px;
+  /* margin: 0 300px; */
 }
 
 .nav-btns {
@@ -54,7 +56,7 @@
   padding: 12px 10px 8px 12px;
   border: 1px solid #2c4f68;
   border-radius: 3px;
-  margin-right: 7px;
+  margin-right: 0;
   white-space: nowrap;
 }
 
@@ -62,7 +64,7 @@
   background-color: #305874;
 }
 .login-btn {
-  margin-right: 30px;
+  margin-right: 0;
 }
 
 /* ============================================== Main section ============================= */
@@ -308,12 +310,26 @@ figcaption span:nth-child(2) {
   margin: auto;
   display: flex;
 }
+
 .hr-black {
-  border-top: 1px solid black;
+  /* border-top: 1px solid black; */
+  margin-top: 0;
+}
+
+.more-articles-link {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.more-articles-link:hover {
+  text-decoration: underline;
 }
 
 .recommended-articles-left {
-  
+  width: 852px;
 }
 
 .rec-articles-container {
@@ -325,19 +341,46 @@ figcaption span:nth-child(2) {
 
 .article-tile {
   width: 272px;
-  margin: 13px;
+  margin: 15px 0;
 }
 
 .article-tile img {
   width: 100%;
 }
 
-.tile-div{
+.article-tile figcaption {
+  margin-top: 0;
+}
+
+.img-caption-small {
+  font-size: 12px;
+  margin-top: 0;
+  float: right;
+}
+
+.article-tile figcaption a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-tile figcaption a:hover {
+  color: #666666;
+}
+
+.img-caption-date {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 10px;
+  color: rgb(153, 153, 153);
+  letter-spacing: 0.3px;
+}
+
+.tile-div {
   width: 100%;
 }
 
 .recomended-articles-right {
-  margin-left: 20px;
+  margin-left: 30px;
+  width: 315px;
 }
 
 .mp-links {
@@ -383,6 +426,7 @@ figcaption span:nth-child(2) {
 
 .bottom-nav-links span {
   display: block;
+  margin-bottom: 5px;
 }
 
 .bottom-nav-header img {
@@ -397,13 +441,14 @@ figcaption span:nth-child(2) {
 
 .links-col {
   font-family: helvetica;
-  font-size: 14px;
-  line-height: 1.8;
+  font-size: 12px;
+  line-height: 2;
 }
 
 .links-col:last-child {
   border-left: 1px solid #e2e2e2;
   padding-left: 18px;
+  margin-left: -40px;
 }
 
 .links-col a:hover {
