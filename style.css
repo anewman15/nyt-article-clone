@@ -7,7 +7,7 @@
   flex-flow: row nowrap;
   align-items: center;
   padding: 5px 0px;
-  border-bottom: 1px solid #E2E2E2;
+  border-bottom: 1px solid #e2e2e2;
   position: sticky;
   top: 0;
   background-color: white;
@@ -35,12 +35,14 @@
   color: black;
   white-space: nowrap;
 }
+
 .sc-link:hover {
   text-decoration: underline;
 }
+
 .logo-img {
   width: 200px;
-  margin: 0 340px;
+  margin: 0 410px;
 }
 
 .nav-btns {
@@ -48,8 +50,8 @@
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 11px;
-  padding: 11px 10px 8px 12px;
+  font-size: 12px;
+  padding: 12px 10px 8px 12px;
   border: 1px solid #2c4f68;
   border-radius: 3px;
   margin-right: 7px;
@@ -91,10 +93,12 @@
   width: 600px;
   margin: 0 auto;
 }
+
 .devis-h3 {
   font-family: Helvetica, Arial, sans-serif;
   color: #333333;
 }
+
 .devis-link {
   text-decoration-color: lightgray;
   color: #333333;  
@@ -103,14 +107,22 @@
 .devis-link:hover {
   text-decoration: none;
 }
+
 .share-icons {
   display: flex;
   justify-content: space-between;
   margin: 30px 0px;
 }
 
+.rel-abs-icon{
+  border: 1px solid;
+  display: inline-block;
+  position: relative;
+}
+
 .share-icons i {
   margin: 0 10px;
+  
 }
 .share-icons :hover {
   background-color: white;
@@ -123,8 +135,14 @@
   font-size: smaller;
 }
 .i2 {
-  font-size: x-large;
+  font-size: xx-large;
   color: rgb(48, 47, 47);
+}
+.i-abs{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 12px;
 }
 .i2:hover {
   color: rgb(230, 230, 230);
@@ -343,7 +361,15 @@ figcaption span:nth-child(2) {
 
 .bottom-nav {
   width: 1280px;
-  margin: auto;
+  margin: 30px auto;
+  padding: 15px 0px;
+  border-top: 5px double #e2e2e2 ;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #1d1d1d;
+
 }
 
 .bottom-nav-links {
@@ -351,12 +377,52 @@ figcaption span:nth-child(2) {
   justify-content: space-between;
 }
 
-.bottom-nav-links span, a {
+.bottom-nav-header {
+  margin-bottom: 16px;
+}
+
+.bottom-nav-links span {
   display: block;
 }
 
 .bottom-nav-header img {
-  width: 184px;
+  width: 200px;
+}
+
+.bottom-nav-header a:nth-child(2) {
+  float: right;
+  color: #567b95;
+  font-size: small;
+}
+
+.links-col {
+  font-family: helvetica;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.links-col:last-child {
+  border-left: 1px solid #e2e2e2;
+  padding-left: 18px;
+}
+
+.links-col a:hover {
+  text-decoration: underline;
+}
+
+.non-iconed {
+  font-size: 12px;
+  line-height: 2;
+}
+
+.links-col span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.iconed-links{
+  font-weight: 800;
+  font-size: 16px;
 }
 
 /* Bottom Footer Area */
