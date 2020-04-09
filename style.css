@@ -247,13 +247,72 @@
 
 .illustration {
   width: 945px;
-  margin: auto;
+  margin: 30px auto 40px auto;
 }
 
-.illustration img {
-  width: 100%;
-  text-align: center;
+.illus-header h2 {
+  margin-bottom: 10px;
 }
+
+.illus-header p {
+  margin-bottom: 5px;
+}
+
+.illus-grid {
+  width: 100%;
+  height: 571px;
+  background-image: url(./images/article-illustration.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(4, 225px);
+  grid-template-rows: repeat(4, 140px);
+  grid-template-areas:  ". . . ."
+                        "para1 para2 para3 para4"
+                        ". . . . "
+                        "para5 para6 para7 para8";
+  grid-gap: 0 10px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.illus-paragraph1 {
+  grid-area: para1;
+}
+
+.illus-paragraph2 {
+  grid-area: para2;
+}
+
+.illus-paragraph3 {
+  grid-area: para3;
+}
+
+.illus-paragraph4 {
+  grid-area: para4;
+}
+
+.illus-paragraph5 {
+  grid-area: para5;
+}
+
+.illus-paragraph6 {
+  grid-area: para6;
+}
+
+.illus-paragraph7 {
+  grid-area: para7;
+}
+
+.illus-paragraph8 {
+  grid-area: para8;
+}
+
+.illus-grid span {
+  font-weight: 600;
+}
+
 
 .youtube-video {
   width: 600px;
