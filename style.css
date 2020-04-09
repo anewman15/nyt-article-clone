@@ -8,7 +8,7 @@
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0px;
+  padding: 5px 0;
   border-bottom: 1px solid #e2e2e2;
   position: fixed;
   top: 0;
@@ -44,7 +44,6 @@
 
 .logo-img {
   width: 200px;
-  /* margin: 0 300px; */
 }
 
 .nav-btns {
@@ -63,6 +62,7 @@
 .nav-btns:hover {
   background-color: #305874;
 }
+
 .login-btn {
   margin-right: 15px;
 }
@@ -74,7 +74,7 @@
   width: 944px;
 }
 
-.main-heading  {
+.main-heading {
   font-family: "nyt-cheltenham", georgia, "times new roman", times, serif;
   max-width: 600px;
   font-size: 2.2rem;
@@ -82,7 +82,6 @@
   font-weight: 550;
   margin: 60px 200px 30px 180px;
   font-style: italic;
-  
 }
 
 .main-img img {
@@ -98,12 +97,12 @@
 
 .devis-h3 {
   font-family: Helvetica, Arial, sans-serif;
-  color: #333333;
+  color: #333;
 }
 
 .devis-link {
   text-decoration-color: lightgray;
-  color: #333333;  
+  color: #333;
 }
 
 .devis-link:hover {
@@ -113,10 +112,10 @@
 .share-icons {
   display: flex;
   justify-content: space-between;
-  margin: 30px 0px;
+  margin: 30px 0;
 }
 
-.rel-abs-icon{
+.rel-abs-icon {
   display: inline-block;
   position: relative;
 }
@@ -125,9 +124,6 @@
   margin: 0 6px;
 }
 
-.i1:hover {
-  background-color: white;
-}
 .i1 {
   background-color: rgb(236, 236, 236);
   border: 1px solid rgb(231, 229, 229);
@@ -135,21 +131,29 @@
   padding: 5px;
   font-size: smaller;
 }
+
+.i1:hover {
+  background-color: white;
+}
+
 .i2 {
   position: relative;
   top: 10px;
   font-size: xx-large;
   color: rgb(48, 47, 47);
 }
-.i-abs{
+
+.i-abs {
   position: absolute;
   top: 18px;
   left: 13px;
   font-size: 12px;
 }
+
 .i2:hover {
   color: rgb(230, 230, 230);
 }
+
 .i-link {
   text-decoration: none;
   color: inherit;
@@ -160,20 +164,20 @@
 .article-content p {
   width: 600px;
   margin: 20px auto;
-  font-family: georgia, 'times new roman', times,serif;
+  font-family: georgia, 'times new roman', times, serif;
   font-size: 20px;
   line-height: 1.5;
-  color: #333333;
+  color: #333;
 }
 
 .article-content span {
   display: block;
   margin: auto;
   width: 600px;
-  font-family: georgia, 'times new roman', times,serif;
+  font-family: georgia, 'times new roman', times, serif;
   font-size: 20px;
   font-weight: bold;
-  color: #333333;
+  color: #333;
 }
 
 .second-section {
@@ -199,10 +203,11 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: #333333;
+  color: #333;
   display: inline-block;
   margin-bottom: 6px;
 }
+
 .create-account-call a {
   text-decoration: none;
   color: rgb(50, 104, 145);
@@ -239,6 +244,7 @@
 .editors-picks-articles a:hover {
   text-decoration: underline;
 }
+
 .editorp-span {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -252,16 +258,16 @@
 
 .illus-header h2 {
   margin-bottom: 10px;
-  font-family: georgia;
+  font-family: georgia, 'times new roman', times, serif;
   font-size: 17px;
 }
 
 .illus-header p {
   margin-bottom: 5px;
-  font-family: georgia;
+  font-family: georgia, 'times new roman', times, serif;
   font-size: 14px;
   line-height: 1.3;
-  color: #666666;
+  color: #666;
 }
 
 .illus-grid {
@@ -274,10 +280,11 @@
   display: grid;
   grid-template-columns: repeat(4, 225px);
   grid-template-rows: repeat(4, 140px);
-  grid-template-areas:  ". . . ."
-                        "para1 para2 para3 para4"
-                        ". . . . "
-                        "para5 para6 para7 para8";
+  grid-template-areas:
+    ". . . ."
+    "para1 para2 para3 para4"
+    ". . . . "
+    "para5 para6 para7 para8";
   grid-gap: 0 10px;
   justify-content: space-between;
   margin-bottom: 30px;
@@ -285,7 +292,7 @@
   font-size: 13px;
   word-spacing: 1.5px;
   line-height: 1.2;
-  color: #000000;
+  color: #000;
 }
 
 .hr-illus {
@@ -298,7 +305,7 @@
 .illus-fc {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  color: #333333 !important;
+  color: #333 !important;
 }
 
 .illus-paragraph1 {
@@ -337,7 +344,6 @@
   font-weight: 600;
 }
 
-
 .youtube-video {
   width: 600px;
   margin: auto;
@@ -350,7 +356,7 @@ figcaption {
 
 figcaption span:nth-child(1) {
   font-family: georgia, 'times new roman', times, serif;
-  color: #666666;
+  color: #666;
 }
 
 figcaption span:nth-child(2) {
@@ -376,7 +382,7 @@ figcaption span:nth-child(2) {
 .article-footer-p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  color: #666666;
+  color: #666;
   text-align: left;
   line-height: 1.3;
   margin-bottom: 22px;
@@ -390,7 +396,7 @@ figcaption span:nth-child(2) {
   text-decoration: none;
 }
 
-.footer-icons a{
+.footer-icons a {
   text-decoration: none;
   color: inherit;
   margin: 0 7px;
@@ -414,7 +420,6 @@ figcaption span:nth-child(2) {
 /* Recommended Articles Area */
 
 .recommended-articles {
- 
   max-width: 1200px;
   margin: 45px auto 0 auto;
   display: flex;
@@ -475,7 +480,7 @@ figcaption span:nth-child(2) {
 }
 
 .article-tile figcaption a:hover {
-  color: #666666;
+  color: #666;
 }
 
 .img-caption-date {
@@ -503,7 +508,7 @@ figcaption span:nth-child(2) {
 }
 
 .mp-links {
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 1.4;
@@ -514,22 +519,21 @@ figcaption span:nth-child(2) {
 }
 
 .mp-links:hover {
-  color: #666666;
+  color: #666;
 }
 
 /* Bottom Navigation Area */
 
 .bottom-nav {
-  width: 1280px;
-  margin: 30px auto px auto;
-  padding: 15px 0px;
-  border-top: 5px double #e2e2e2 ;
+  width: 1200px;
+  margin: 30px auto 5px auto;
+  padding: 15px 0;
+  border-top: 5px double #e2e2e2;
 }
 
 .bottom-nav a {
   text-decoration: none;
   color: #1d1d1d;
-
 }
 
 .bottom-nav-links {
@@ -557,7 +561,7 @@ figcaption span:nth-child(2) {
 }
 
 .links-col {
-  font-family: helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 2;
 }
@@ -577,36 +581,32 @@ figcaption span:nth-child(2) {
   line-height: 2;
 }
 
-.links-col span{
+.links-col span {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
-.iconed-links{
+.iconed-links {
   font-weight: 800;
   font-size: 14px;
 }
 
+.iconed-links i {
+  margin-right: 10px;
+}
+
 /* Bottom Footer Area */
-
-footer {
-  text-align: center;
-}
-
-footer a {
-  display: inline;
-
-}
 
 .bottom-footer {
   font-family: Helvetica, sans-serif;
   font-size: 11px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
-.bottom-footer a{
+.bottom-footer a {
   text-decoration: none;
-  color: #666666;
+  color: #666;
   margin: 0 6px;
 }
 
