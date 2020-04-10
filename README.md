@@ -13,7 +13,7 @@ This client side clone of https://www.nytimes.com/2014/03/18/science/space/detec
 
 ## Live Demo
 
-https://rawcdn.githack.com/anewman15/nyt-article-clone/62ed81e8202af3d01be2775420ec17cb3e649047/index.html
+https://rawcdn.githack.com/anewman15/nyt-article-clone/807f1bdd460ea26bf12f9b17a9846f06b67f5d47/index.html
 
 ## Authors
 
