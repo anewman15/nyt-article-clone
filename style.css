@@ -583,8 +583,45 @@
 .bottom-footer {
   font-family: Helvetica, sans-serif;
   font-size: 11px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   text-align: center;
+}
+
+.bottom-fixed-footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgb(95, 95, 95);
+}
+
+.fixed-footer-div {
+  text-align: center;
+  padding: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.bottom-fixed-footer a{
+  text-decoration: none;
+  color: #000;
+}
+
+.fixed-footer-div span:first-child {
+  font-size: 15px;
+  padding-left: 180px;
+}
+
+.fixed-footer-div span:nth-child(2) {
+  float: right;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+.i4 {
+  margin-left: 30px;
+  margin-right: 70px;
+  font-size: 16px;
 }
 
 /* Links */
