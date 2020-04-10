@@ -532,6 +532,11 @@
   justify-content: space-between;
 }
 
+.bottom-fixed-footer a {
+  text-decoration: none;
+  color: #000;
+}
+
 .bottom-nav-header {
   margin-bottom: 16px;
 }
@@ -587,7 +592,7 @@
   text-align: center;
 }
 
-.bottom-fixed-footer{
+.bottom-fixed-footer {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -601,11 +606,6 @@
   font-family: Helvetica, sans-serif;
 }
 
-.bottom-fixed-footer a{
-  text-decoration: none;
-  color: #000;
-}
-
 .fixed-footer-div span:first-child {
   font-size: 15px;
   padding-left: 180px;
@@ -616,7 +616,6 @@
   font-weight: bold;
   font-size: 12px;
 }
-
 
 .i4 {
   margin-left: 30px;
